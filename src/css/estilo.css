@@ -5,17 +5,22 @@
 }
 
 body{
-    background: #1d1b1b;
+    background: #000000;
+}
+body main{
+    color: #fff;
+    text-align: center;
+    height: 50 px;
+    width: 100%
 }
 
 header{
-    background: #000000;
+    background: rgba(77, 0, 0, 0.884);
     color:#fff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 5px 5px 5px #555;
 }
 header nav ul{
     list-style: none;
@@ -36,11 +41,15 @@ header nav ul li a:hover{
 header #logo{
     color:blue;
 }
+
 .banner #image{
-    width: 70%;
-    height: 100vh;
+    max-width: 70%;
 }
 
 footer{
+    height: 100 px;
+    margin: 10 px;
+    text-align: center;
+    padding: 20 px;
     color: #fff;
 }
