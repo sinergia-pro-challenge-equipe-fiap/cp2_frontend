@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1d1b1b;
+}
+
+header{
+    background: #000000;
+    color:#fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px #555;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 700;
+}
+
+header nav ul li a:hover{
+    color:goldenrod;
+    text-decoration: underline;
+    border: 2px solid #ccc;
+}
+header #logo{
+    color:blue;
+}
+.banner #image{
+    width: 70%;
+    height: 100vh;
+}
+
+footer{
+    color: #fff;
+}
