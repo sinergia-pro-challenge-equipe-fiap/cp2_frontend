@@ -84,6 +84,10 @@ button:hover{
   color:aqua;
 }
 
+.sobre{
+  font-size:x-large;
+}
+
 footer{
     height: 100 px;
     margin: 10 px;
