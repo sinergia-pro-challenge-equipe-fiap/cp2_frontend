@@ -46,6 +46,44 @@ header #logo{
     max-width: 70%;
 }
 
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.produto{
+  width: 200px;
+  height: 550px; 
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: rgba(77, 0, 0, 0.884);
+  color:#f0f0f0;
+  border-radius: 30px;
+  text-align: center;
+}
+.produto img{
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.preco{
+  font-weight: 700;
+  margin-top: 50px;
+  color:rgb(7, 190, 105);
+  font-size: 1.7rem;
+}
+button{
+  background: white;
+  margin-top: 30px;
+  padding: 15px 45px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover{
+  background: #021b2b;
+  color:aqua;
+}
+
 footer{
     height: 100 px;
     margin: 10 px;
