@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Okinawa Sushi</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/cardapio.html">Cardapio</a></li>
+                    <li><a href="/pages/contato.html">Contato</a></li>
+                    <li><a href="/pages/sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="container-contato">
+        <div class="contato">
+            <form class="form" id="form">
+                <article class="control">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" >
+                    <i class="error"><img src="../assets/erro.svg"></i>
+                    <small>Erro</small>
+                </article>
+
+                <article class="control">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <i class="error"><img src="../assets/erro.svg"></i>
+                    <small>Erro</small>
+                </article>
+
+                <article class="control">
+                    <label for="descricao">Descrição</label>
+                    <textarea type="text" name="descricao" id="descricao"></textarea>
+                    <i class="error"><img src="../assets/erro.svg"></i>
+                    <small>Erro</small>
+                </article>
+
+                <button type="submit" onclick="validar()">Enviar</button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="info">
+            <p>Telefone: 91842-8940</p>
+            <p>Email: okinawasushi@sushimail.com</p>
+            <p>Endereço: Rua dos Cavacos, n° 2025 </p>
+        </div>
+        <p>&copy;2025- todos os direitos reservados</p>
+    </footer>
+    <script src="../js/contato.js"></script>
+    
+</body>
+</html>
