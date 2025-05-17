@@ -61,6 +61,10 @@ main .container{
 }
 .produto{
   width: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 550px; 
   margin: 20px;
   padding: 20px;
@@ -70,6 +74,11 @@ main .container{
   border-radius: 30px;
   text-align: center;
 }
+.info_produto{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .produto img{
   width: 158px;
   margin-bottom: 10px;
@@ -77,9 +86,13 @@ main .container{
 }
 .preco{
   font-weight: 700;
-  margin-top: 50px;
   color:rgb(7, 190, 105);
   font-size: 1.7rem;
+
+}
+.preco_original{
+    color: red;
+    text-decoration: line-through;
 }
 button{
   background: white;
@@ -94,10 +107,11 @@ button:hover{
 }
 
 .sobre{
-  font-size:x-large;
-  padding: 20 px;
-  text-align: center;
-  margin: 20 px;
+    font-size: x-large;
+    background: grey;
+    width: 100vw;
+    padding: 300px;
+    text-align: justify;
 }
 
 #container-contato{
@@ -114,9 +128,8 @@ button:hover{
     height: 500px;
     border-radius: 20px;
 }
-
-.form{
-    padding:  0 40px 30px;
+.form {
+    padding: 0px 30px 40px;
 }
 .control{
     margin: 20px;
@@ -148,13 +161,9 @@ button:hover{
 
 .form button{
     width: 80%;
-    height: 30px;
     background: rgba(77, 0, 0, 0.884);
     color:#fff;
-    color:#fff;
-    font-size: 1.2rem;
     cursor: pointer;
-    margin-left: 40px;
     border-radius: 20px;
 }
 
