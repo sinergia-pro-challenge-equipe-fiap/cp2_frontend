@@ -86,6 +86,9 @@ button:hover{
 
 .sobre{
   font-size:x-large;
+  padding: 20 px;
+  text-align: center;
+  margin: 20 px;
 }
 
 #container-contato{
@@ -94,9 +97,10 @@ button:hover{
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    padding: 40px;
 }
 .contato{
-    background-image: linear-gradient(#0056b3,#090840);
+    background: #818181;
     width: 500px;
     height: 500px;
     border-radius: 20px;
@@ -136,7 +140,8 @@ button:hover{
 .form button{
     width: 80%;
     height: 30px;
-    background: #0056b3;
+    background: rgba(77, 0, 0, 0.884);
+    color:#fff;
     color:#fff;
     font-size: 1.2rem;
     cursor: pointer;
